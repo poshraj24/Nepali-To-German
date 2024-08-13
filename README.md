@@ -1,10 +1,9 @@
 # Nepali-To-German
-This is repository to make a ML model to translate Nepali to German (text-text) <br>
+This is repository to make a ML model to translate Nepali to German (text-text).Later will be scaled to speech-speech <br>
 Structure of the repository: <br>
--Nepali-English parquet files (pretrained models) <br>
--English-German parquet files (pretrained models) <br>
--langTraining.py <br>
--optimizers.py (module for optimization) <br>
--langtransGUI.py (Output file for translation) <br> 
+-seq-seq.py
+    This implementation consists of pre-trained transformers. The technique followed is pivoting Nepali-English and English-German. Two different pre-trained transformers are used
+-translate.py
+    This implementation consists of the output file, which in first stage is text-text translation. Final model will be scaled to speech-speech+text translation
 ©Posh Raj Dahal
 
